@@ -43,6 +43,7 @@ function App() {
     }
     setTodos([...todos, myTodo]);
     console.log(myTodo);
+    console.log(myTodo);
   }
 
   const [todos, setTodos] = useState(initTodo);
